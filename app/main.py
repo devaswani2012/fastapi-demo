@@ -19,3 +19,11 @@ def add(a: int, b: int):
 @app.get("/multiply/{d}/{c}")
 def multiply(c: int, d:int):
     return {"product": c * d}
+
+@app.get("/info")
+def info():
+    return {
+        "app": "FastAPI Demo",
+        "version": "1.0",
+        "description": "This is a demo FastAPI app with arithmetic functions."
+    }
