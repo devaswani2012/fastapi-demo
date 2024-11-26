@@ -3,6 +3,7 @@ fastapi[standard]
 typing
 pydantic
 mysql-connector-python
+boto3
 # pymongo
 # dnspython
 # mysqlclient
